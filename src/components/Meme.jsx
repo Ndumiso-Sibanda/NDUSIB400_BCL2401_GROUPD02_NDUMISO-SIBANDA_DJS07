@@ -16,4 +16,13 @@ export default function Meme() {
   }
   getMemes();
  }, []);
+
+ function getMemeImage() {
+  const randomNumber = math.floor(Math.random() * allMemes.length);
+  const url = allMemes[randomNumber].url;
+  setMeme((prevMeme) => ({
+   ...prevMeme,
+   randomImage: url,
+  }));
+ }
 }
