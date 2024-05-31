@@ -32,4 +32,19 @@ export default function Meme() {
    [name]: value,
   }));
  }
+
+ return (
+  <main>
+   <div className="form">
+    <input
+     type="text"
+     placeholder="Top text"
+     className="form--input"
+     name="topText"
+     value={meme.topText}
+     onChange={handleChange}
+    />
+   </div>
+  </main>
+ );
 }
