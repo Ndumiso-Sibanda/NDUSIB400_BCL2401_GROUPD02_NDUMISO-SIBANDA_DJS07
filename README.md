@@ -32,3 +32,6 @@ Dynamic Text Input:
 Added input fields to allow users to add custom text to the meme image.
 Styling:
 Applied CSS for a clean and user-friendly interface.
+
+how to run ?
+To run type npm install and after installing type npm run dev to view the web application
